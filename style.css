@@ -1,0 +1,24 @@
+body {
+  font-family: Helvetica;
+  margin: 0;
+  text-align: center;
+}
+
+button {
+  background: lightgrey;
+  border: 0;
+  box-shadow: 5px 5px 5px black;
+  font-size: 20px;
+  padding: 5px 10px;
+  position: relative;
+ }
+
+ button:hover {
+   color: white;
+   cursor: pointer;
+ }
+
+ button:active {
+  box-shadow: none; 
+  top: 5px;
+ }
